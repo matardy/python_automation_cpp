@@ -7,7 +7,7 @@
   },
       
       {
-          "key": "cmd+h",
+          "key": "cmd+b",
           "command": "workbench.action.terminal.sendSequence",
           "args": { "text": "'${file}'\u000D" },
           "when": "terminalFocus"
