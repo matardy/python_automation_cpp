@@ -1,5 +1,5 @@
 [{
-    "key": "cmd+h",
+    "key": "cmd+b",
     "command": "terminalCommandKeys.run",
         "args": {
             "cmd": "python3 run.py"
@@ -7,7 +7,7 @@
   },
       
       {
-          "key": "cmd+b",
+          "key": "cmd+h",
           "command": "workbench.action.terminal.sendSequence",
           "args": { "text": "'${file}'\u000D" },
           "when": "terminalFocus"
