@@ -8,6 +8,7 @@ First you need to have python 3.x.x and g++ compiler install. Then you will need
 Now its time to configure your shourcuts: 
 press cmd+shift+p or ctrl+shift+p type key and open the following:
 <a href="https://ibb.co/vJbPS2D"><img src="https://i.ibb.co/193qkHb/Screen-Shot-2021-10-28-at-14-26-21.png" alt="Screen-Shot-2021-10-28-at-14-26-21" border="0"></a>
+
 Inside of it copy and paste the keybinding-config.json file in this repository. 
 Open a vscode file press cmd+b and cmd+h and enjoy!
 
