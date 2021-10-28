@@ -19,7 +19,7 @@ I'm a mac user, one day I wanted to upload my C++ projects to a github repositor
 I came up with an elegant solution, when I compiled my programs, this executable files will go to a folder /bin and then I can add /bin in .gitignore and problem solved! 
 
 ## Extras: 
-Alse this code give you beatifully colored message in your consolo, telling you if there are sort of mistakes or typos. 
+This code give you beatifully colored message in your console, telling you if there are sort of mistakes or typos. 
 
 <a href="https://ibb.co/y63QJfB"><img src="https://i.ibb.co/N94yzVn/Screen-Shot-2021-10-28-at-14-17-09.png" alt="Screen-Shot-2021-10-28-at-14-17-09" border="0"></a>
 <a href="https://ibb.co/Z14mx0z"><img src="https://i.ibb.co/0V4trxy/Screen-Shot-2021-10-28-at-14-17-31.png" alt="Screen-Shot-2021-10-28-at-14-17-31" border="0"></a>
