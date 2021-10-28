@@ -36,10 +36,14 @@ def run():
     route_exe = my_route.delete_cpp_ext(route_cpp)
     
    
-    os.system("g++ {} -o bin/{}".format(route_cpp,route_exe))
-    print("Compiled successfully")
-    print("--------------------------------------------------")
-    print('\n')
+    if os.system("g++ {} -o bin/{}".format(route_cpp,route_exe)) == 0:
+        print("Compiled successfully")
+        print("--------------------------------------------------")
+        print('\n')
+        os.system("./bin/{}".format(route_exe))
+        print('\n')
+    else:
+        print('Debug your code!')
 
-    os.system("./bin/{}".format(route_exe))
-    print('\n')
+if __name__ == '__main__':
+    run()
